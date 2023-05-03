@@ -44,8 +44,7 @@ Better to use a shell script to control the python script.
 2. set all config in config.toml
 3. run **init.sh** to create a virtual environment
 4. the python script enbeded in **run.sh**, and use **run.sh**  to control job
-5. there are two versions of python script:
-    - run_v1.py: A regular version using boto3 and aws secrets, the version can be used in any platform any condition.
 
-## Instruction
-- some parameter need for run.sh also come from config.toml
+
+Visual:
+![Python Project](https://user-images.githubusercontent.com/14003325/235817634-5c5e3c5a-4789-4b4e-bcfa-570a21adb4ea.JPG)
